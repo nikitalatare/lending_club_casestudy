@@ -108,4 +108,4 @@ Matplotlib and Seaborn: Libraries for creating data visualizations and plots.
 
 
 ## Contact
-Created by [@vaibhav90363] - feel free to contact me!
+Created by [@vaibhav90363]  or [@nikitalatare] - feel free to contact me!
