@@ -6,15 +6,15 @@ The company wants to understand the driving factors (or driver variables) behind
 
 
 ## Table of Contents for Python file
-Data Understanding: Identifying data quality issues and the meanings of the variables
-Data cleaning Process
+- Data Understanding: Identifying data quality issues and the meanings of the variables
+- Data cleaning Process
   Removing features on the basis of business logic
   Handling missing values
   Checking for missing values
   Standardizing the data for analysis
   Derived Variables
   Analysis for Outlier Treatment
-Univariate Analysis
+- Univariate Analysis
   EDA for Loan Amount
   EDA for Funded Amount
   EDA for Categorical Data
@@ -26,8 +26,8 @@ Univariate Analysis
   EDA for Installment
   EDA by Issued Month and Year
   EDA for variables related to installment, debt-to-income ratio (dti), and loan amount (loan_amnt).
-Observations from Univariate EDA & Recommendation
-Bivariate Analysis
+- Observations from Univariate EDA & Recommendation
+- Bivariate Analysis
   EDA for Term vs Loan Status
   EDA for Annual income vs loan purpose
   EDA for Annual income vs home ownership
@@ -64,23 +64,23 @@ Observations from Univariate EDA & Recommendation
 
 ### Based on the analysis with respect to the charged off loans for each variable suggests the following. There is a more probability of defaulting when :
 
--Applicants with 'RENT' as their house ownership status have a higher probability of defaulting.
--Borrowers who use the loan for debt consolidation purposes are more likely to default.
--Default probability is elevated when the interest rate falls within the range of 13-17%.
--Borrowers with an annual income ranging from USD 30000 to USD 60000 are more prone to default.]
--Individuals with 20-37 open accounts (open_acc) exhibit a higher likelihood of default.
--Borrowers with a employment length of 10 years have an increased chance of defaulting.
--Loans funded by investors within the range of $5,000 to $10,000 are associated with higher default rates.
--Loan amounts falling between $5000 and $10000 are linked to an elevated likelihood of default.
--A debt-to-income ratio (dti) in the range of 12-18 increases the probability of default.
--Loans with monthly installments between $150 and $300 are more likely to default.
--Loans with a term of 36 months have a higher probability of defaulting.
--Loans without verified status are associated with a greater likelihood of default.
--A borrower's default probability tends to be higher when they have zero recent inquiries in the last 6 months.
--Borrowers with zero derogatory public records are more prone to default.
--Loans intended for the purpose of debt consolidation exhibit a higher likelihood of default.
--Loans graded as 'B' have an increased probability of default.
--Specifically, loans assigned a total grade of 'B5' have a higher likelihood of defaulting.
+- Applicants with 'RENT' as their house ownership status have a higher probability of defaulting.
+- Borrowers who use the loan for debt consolidation purposes are more likely to default.
+- Default probability is elevated when the interest rate falls within the range of 13-17%.
+- Borrowers with an annual income ranging from USD 30000 to USD 60000 are more prone to default.]
+- Individuals with 20-37 open accounts (open_acc) exhibit a higher likelihood of default.
+- Borrowers with a employment length of 10 years have an increased chance of defaulting.
+- Loans funded by investors within the range of $5,000 to $10,000 are associated with higher default rates.
+- Loan amounts falling between $5000 and $10000 are linked to an elevated likelihood of default.
+- A debt-to-income ratio (dti) in the range of 12-18 increases the probability of default.
+- Loans with monthly installments between $150 and $300 are more likely to default.
+- Loans with a term of 36 months have a higher probability of defaulting.
+- Loans without verified status are associated with a greater likelihood of default.
+- A borrower's default probability tends to be higher when they have zero recent inquiries in the last 6 months.
+- Borrowers with zero derogatory public records are more prone to default.
+- Loans intended for the purpose of debt consolidation exhibit a higher likelihood of default.
+- Loans graded as 'B' have an increased probability of default.
+- Specifically, loans assigned a total grade of 'B5' have a higher likelihood of defaulting.
 
 
 # Observations and Recommendations based on Bivariate analysis 
